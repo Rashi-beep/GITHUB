@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGLearning]">
+  <listeners>
+    <listener class-name="TestListners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestCase3">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="LoginValid"/>
+        </methods>
+      </class> <!-- TestCase3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestNGLearning] -->
