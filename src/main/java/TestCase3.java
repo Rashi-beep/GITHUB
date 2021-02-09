@@ -18,7 +18,7 @@ public class TestCase3 extends BaseTest{
 		driver.get("http://dev.veri-fuel.com/qa/");*/
 	
 		
-		driver.findElement(By.xpath(".//input[@id='Username']")).sendKeys("rashireg_buyer@kodecorp.com");
+		driver.findElement(By.xpath(".//input[@id='Username']")).sendKeys("rashi_buyer@kodecorp.com");
 		driver.findElement(By.xpath(".//input[@id='Password']")).sendKeys("ultr@low");
        driver.findElement(By.xpath(".//button[text()='Log In']")).click();
    /*    
