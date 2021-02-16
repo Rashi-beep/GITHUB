@@ -19,7 +19,7 @@ public class TestCase3 extends BaseTest{
 	
 		
 		driver.findElement(By.xpath(".//input[@id='Username']")).sendKeys("rashi@kodecorp.com");
-		driver.findElement(By.xpath(".//input[@id='P']")).sendKeys("ultr@low");
+		driver.findElement(By.xpath(".//input[@id='v']")).sendKeys("ultr@low");
        driver.findElement(By.xpath(".//button[text()='Log In']")).click();
    /*    
       String ExpectedTitle="http://dev.veri-fuel.com/qa/RFP/QuoteTerminal";
